@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mateocisneros/VisualCode/Segundo_Semestre/Segundo_Progreso/Cisneros_Arreglo-tridimensional",
+      "program": "/Users/mateocisneros/VisualCode/Segundo_Semestre/Segundo_Progreso/Cisneros_Arreglo-tridimensional/build/Debug/outDebug"
+    }
+  ]
+}
