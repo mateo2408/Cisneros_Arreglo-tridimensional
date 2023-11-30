@@ -35,5 +35,18 @@ int main()
         } 
     }
 
+
+    //Se establecen la ultima matriz en uno
+    for (int k = 0; k < capas; k++)
+    {
+        for (int i = 0; i < filas; i++)
+        {
+            for (int j = 0; j < columnas; j++)
+            {
+                arreglo[k][i][j]=1;
+            }   
+        }
+    }
+
     return 0;
 }
