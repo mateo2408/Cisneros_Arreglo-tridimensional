@@ -48,5 +48,20 @@ int main()
         }
     }
 
+
+    //Imprimimos las matrices
+    for (int k = 0; k < capas; k++)
+    {
+        printf("Matriz %d\n", k);
+        for (int i = 0; i < filas; i++)
+        {
+            for (int j = 0; j < columnas; j++)
+            {   
+                printf("%d", arreglo[k][i][j]);
+            } 
+            printf("\n"); 
+        }
+    }
+
     return 0;
 }
