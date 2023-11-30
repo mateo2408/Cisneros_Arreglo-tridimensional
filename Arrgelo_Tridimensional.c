@@ -20,6 +20,20 @@ int main()
     printf("Ingrese el número de columnas de las matrices: ");
     scanf("%d", &columnas);
 
-    
+    //Definimos la matriz
+    int arreglo[capas][filas][columnas];
+
+    //Inicializamos las matrices en o
+    for (int k = 0; k < capas; k++)
+    {
+        for (int i = 0; i < filas; i++)
+        {
+            for (int j = 0; j < columnas; j++)
+            {
+                arreglo[k-1][i][j]=0;
+            }   
+        } 
+    }
+
     return 0;
 }
