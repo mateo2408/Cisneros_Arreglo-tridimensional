@@ -23,19 +23,6 @@ int main()
     //Definimos la matriz
     int arreglo[capas][filas][columnas];
 
-    //Inicializamos las matrices en o
-    for (int k = 0; k < capas; k++)
-    {
-        for (int i = 0; i < filas; i++)
-        {
-            for (int j = 0; j < columnas; j++)
-            {
-                arreglo[k-1][i][j]=0;
-            }   
-        } 
-    }
-
-
     //Se establecen la ultima matriz en uno
     for (int k = 0; k < capas; k++)
     {
@@ -48,6 +35,18 @@ int main()
         }
     }
 
+
+    //Inicializamos las matrices en o
+    for (int k = 0; k < capas; k++)
+    {
+        for (int i = 0; i < filas; i++)
+        {
+            for (int j = 0; j < columnas; j++)
+            {
+                arreglo[k-1][i][j]=0;
+            }   
+        } 
+    }
 
     //Imprimimos las matrices
     for (int k = 0; k < capas; k++)
